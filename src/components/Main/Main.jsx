@@ -3,11 +3,7 @@ import AddListItem from "../AddListItem/AddListItem";
 import StateList from "../StateList/StateList";
 
 const Main = () => {
-  const [stateList, setStateList] = useState({});
-
-  useEffect(() => {
-    console.log(stateList);
-  }, [stateList]);
+  const [stateList, setStateList] = useState([]);
 
   return (
     <main>
