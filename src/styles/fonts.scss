@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../assets/fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Normal';
+  src: url('../assets/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../assets/fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('../assets/fonts/Roboto-Medium.ttf');
+}
+////////////////////////////////////////////////
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url('../assets/fonts/helvetica_bold.otf');
+}
+
+@font-face {
+  font-family: 'Helvetica-Normal';
+  src: url('../assets/fonts/helvetica_regular.otf');
+}
+
+@font-face {
+  font-family: 'Helvetica-Light';
+  src: url('../assets/fonts/helvetica_light.otf');
+}
+
+h1 {
+  font-family: 'Roboto-Medium';
+  font-size: 70px;
+  font-weight: 700;
+
+  @media screen and (max-width: 767px) {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  font-family: 'Roboto-Medium';
+  font-size: 40px;
+  font-weight: 500;
+
+  @media screen and (max-width: 1439px) {
+    font-size: 32px;
+  }
+}
+
+h3 {
+  font-family: 'Roboto-Medium';
+  font-size: 32px;
+
+  @media screen and (max-width: 1023px) {
+    font-size: 28px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 22px;
+  }
+}
+
+h4 {
+  font-family: 'Roboto-Bold';
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Roboto-Normal';
+  font-size: 14px;
+}
+
+h5 {
+  font-family: 'Roboto-Normal';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h6 {
+  font-family: 'Roboto-Light';
+  font-size: 24px;
+
+  @media screen and (max-width: 1439px) {
+    font-size: 22px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
